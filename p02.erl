@@ -3,7 +3,7 @@
 
 but_last([_,_]=X) ->
     X;
-but_last([H|T]) ->
+but_last([_|T]) ->
     but_last(T).
 
 
